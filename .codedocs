@@ -1,0 +1,13 @@
+# CodeDocs.xyz Configuration File
+
+DOXYFILE = doc/Doxyfiles/doxyfile.cmake
+
+INPUT                  = include \
+                         src \
+                         applications \
+                         examples
+STRIP_FROM_PATH        = include/
+HTML_FOOTER            = doc/Doxyfiles/custom_Footer.html
+SEARCHENGINE           = YES
+
+
