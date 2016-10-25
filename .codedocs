@@ -2,12 +2,14 @@
 
 DOXYFILE = doc/Doxyfiles/doxyfile.cmake
 
+PROJECT_NUMBER         =
+PROJECT_LOGO           = PlatformSpecifics/Windows/icons/src/osg32-32.png
 INPUT                  = include \
                          src \
                          applications \
                          examples
 STRIP_FROM_PATH        = include/
-HTML_FOOTER            = doc/Doxyfiles/custom_Footer.html
+HTML_FOOTER            =
 SEARCHENGINE           = YES
 
 
